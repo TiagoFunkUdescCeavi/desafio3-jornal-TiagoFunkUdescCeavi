@@ -1,0 +1,161 @@
+header{
+    background-color: #2980B9;
+    width: 100%;
+    height: 100px;
+    padding: 0px 0px 0px 300px;
+    line-height: 150px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#menu_icon{
+    float: left;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+}
+
+#imagem_logo{
+    float: left;
+    height: 100px;
+    position: absolute;
+    left: 300px;
+    top: 2px;
+}
+
+#titulo{
+    color: white;
+    float: left;
+    height: 100px;
+    position: absolute;
+    left: 550px;
+    top: -4%;
+}
+
+#facebook{
+    float: left;
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    left: 950px;
+    top: 50px;
+    cursor: pointer;
+}
+
+#twitter{
+    float: left;
+    background-color: white;
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    left: 1050px;
+    top: 50px;
+    cursor: pointer;
+}
+
+/***************************** Imagem principal *******************************/
+section#corpo{
+    background-color: #ECF0F1;
+    width: 100%;
+    height: 1000px;
+}
+
+figure.imagem_principal{
+    position: relative;
+    display: block;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+figure.imagem_principal img{
+    width: 1139px;
+    height: 450px;
+}
+
+figure.imagem_principal figcaption{
+    position: absolute;
+    top: 350px;
+    color: white;
+}
+
+figure.imagem_principal h3 {
+    background-color: #2980B9;
+    height: 30px;
+    width: 500px;
+    left: 100px;
+    margin: 5px;
+    text-align: center;
+    vertical-align: central;
+}
+
+figure.imagem_principal p{
+    height: 30px;
+    left: 10px;
+    margin: 5px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: central;
+    text-align: justify;
+}
+
+/************************ Primeira linha de imagens ***************************/
+
+div#primeira_linha_imagens{
+    position: relative;
+    display: inline-block;
+}
+
+h1#top_calcidis{
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: #38272d;
+}
+
+figure.primeira_linha_imagens_01{
+    position: relative;
+    margin-left: 80px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+figure.primeira_linha_imagens_02{
+    position: relative;
+    left: 460px;
+    margin-top: 10px;
+    float: left;
+}
+
+figure.primeira_linha_imagens_03{
+    position: relative;
+    left: 760px;
+    margin-top: 10px;
+    /*float: right;*/
+}
+
+/******************************* Rodape ***************************************/
+footer{
+    background-color: #211f72;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+#imagem_rodape{
+    float: left;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+}
+
+#texto_rodape{
+    float: left;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    font-size: 15px;
+}

@@ -134,6 +134,14 @@ figure.primeira_linha_imagens_01{
 .titulos_primeira_linha{
     position: relative;
     top: -40px;
+    left: 0px;
+    background-color: #E74C3C;
+    color: #ECF0F1;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    opacity: 0.8;
 }
 
 
@@ -149,6 +157,89 @@ figure.primeira_linha_imagens_03{
     left: 160px;
     top: 60px;
     float: left;
+}
+
+/************************** Quadrado de imagens *******************************/
+h1#divoltis_porris{
+    position: relative;
+    top: 80px;
+    left: 80px;
+    font-size: 30px;
+    color: #38272d;
+}
+
+h3.titulos_quadrado_imagens{
+  position: relative;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #2980B9;
+  opacity: 0.9;
+}
+
+p.subtitulos_quadrado_imagens{
+    padding-top: 10px;
+    font-size: 15px;
+    width: 370px;
+    color: #38272d;
+    opacity: 0.9;
+}
+
+section#quadrado_imagens{
+    float: left;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    left: 80px;
+    top: 90px;
+    color: #38272d;
+}
+
+figure#primeira_imagem_quadrado{
+    float: left;
+}
+
+figure#segunda_imagem_quadrado{
+    position: relative;
+    float: left;
+    left: 35px;
+}
+
+section#segunda_linha_quadrado_imagens{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+}
+
+figure#terceira_imagem_quadrado{
+    float: left;
+}
+
+figure#terceira_imagem_quadrado img{
+    max-width:360px;
+    max-height:215px;
+    width: auto;
+    height: auto;
+}
+
+figure#quarta_imagem_quadrado{
+    float: left;
+    position: relative;
+    left: 40px;
+}
+
+figure#quarta_imagem_quadrado img{
+    max-width:350px;
+    max-height:210px;
+    width: auto;
+    height: auto;
+}
+
+/**************************** Imagem Lateral **********************************/
+section#imagem_lateral{
+    position: relative;
+    float: left;
+    top: 90px;
+    left: 170px;
 }
 
 /******************************* Rodape ***************************************/

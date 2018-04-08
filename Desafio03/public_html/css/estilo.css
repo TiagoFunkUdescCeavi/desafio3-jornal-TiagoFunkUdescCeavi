@@ -36,24 +36,32 @@ span{
 
 #facebook{
     float: left;
-    background-color: white;
-    height: 20px;
+    margin: 0 15px;
     width: 90px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size: 10px;
     position: absolute;
     left: 950px;
     top: 50px;
     cursor: pointer;
+    color: #01579B;
 }
 
 #twitter{
     float: left;
-    background-color: white;
-    height: 20px;
+    margin: 0 15px;
     width: 90px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    font-size: 10px;
     position: absolute;
     left: 1050px;
     top: 50px;
     cursor: pointer;
+    color:  #00B0FF;
 }
 
 /***************************** Imagem principal *******************************/
@@ -85,8 +93,8 @@ figure.imagem_principal h3 {
     background-color: #2980B9;
     height: 30px;
     width: 500px;
-    left: 100px;
     margin: 5px;
+    padding-top: 10px;
     text-align: center;
     vertical-align: central;
 }
@@ -109,32 +117,38 @@ div#primeira_linha_imagens{
 }
 
 h1#top_calcidis{
+    position: relative;
     font-size: 30px;
-    margin-left: 80px;
-    margin-top: 50px;
+    left: 80px;
+    top: 50px;
     color: #38272d;
 }
 
 figure.primeira_linha_imagens_01{
     position: relative;
-    margin-left: 80px;
-    margin-top: 10px;
+    left: 80px;
+    top: 60px;
     float: left;
+}
+
+.titulos_primeira_linha{
+    position: relative;
+    top: -40px;
 }
 
 
 figure.primeira_linha_imagens_02{
     position: relative;
-    left: 460px;
-    margin-top: 10px;
+    left: 120px;
+    top: 60px;
     float: left;
 }
 
 figure.primeira_linha_imagens_03{
     position: relative;
-    left: 760px;
-    margin-top: 10px;
-    /*float: right;*/
+    left: 160px;
+    top: 60px;
+    float: left;
 }
 
 /******************************* Rodape ***************************************/
@@ -142,7 +156,8 @@ footer{
     background-color: #211f72;
     width: 100%;
     height: 100px;
-    position: relative;
+    position: absolute;
+    bottom: 0px;
 }
 
 #imagem_rodape{

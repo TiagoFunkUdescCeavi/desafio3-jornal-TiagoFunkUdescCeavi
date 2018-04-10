@@ -1,9 +1,18 @@
+body {
+    overflow-x: hidden;
+}
+
 header{
     background-color: #2980B9;
     width: 100%;
     height: 100px;
     padding: 0px 0px 0px 300px;
     line-height: 150px;
+}
+
+.corpo{
+        border: 2px solid yellow;
+        height: 1700px;
 }
 
 span{
@@ -68,7 +77,7 @@ span{
 section#corpo{
     background-color: #ECF0F1;
     width: 100%;
-    height: 1000px;
+    height: 1500px;
 }
 
 figure.imagem_principal{
@@ -169,11 +178,11 @@ h1#divoltis_porris{
 }
 
 h3.titulos_quadrado_imagens{
-  position: relative;
-  padding-top: 20px;
-  font-size: 20px;
-  color: #2980B9;
-  opacity: 0.9;
+    position: relative;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #2980B9;
+    opacity: 0.9;
 }
 
 p.subtitulos_quadrado_imagens{
@@ -245,14 +254,21 @@ section#imagem_lateral{
 
 /***************************** Ultimos Componenetes ***************************/
 
-section#primeiro_componente{
+section#componentes_finais{
+    position: relative;
+    top: 800px;
+    border: 2px solid blue;
+}
+
+section #primeiro_componente{
     position: relative;
     float: left;
-    left: 80px;
-    top: 150px;
+    left: -960px;
+    top: 0px;
 }
 
 h1#titulo_primeiro_componente{
+    border: 2px solid red;
     position: relative;
     float: left;
     top: 0px;

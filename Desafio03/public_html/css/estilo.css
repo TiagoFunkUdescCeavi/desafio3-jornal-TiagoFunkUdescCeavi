@@ -242,6 +242,27 @@ section#imagem_lateral{
     left: 170px;
 }
 
+
+/***************************** Ultimos Componenetes ***************************/
+
+section#primeiro_componente{
+    position: relative;
+    float: left;
+    left: 80px;
+    top: 150px;
+}
+
+h1#titulo_primeiro_componente{
+    position: relative;
+    float: left;
+    top: 0px;
+}
+
+h2.componente_final{
+    position: relative;
+    top: 50px;
+}
+
 /******************************* Rodape ***************************************/
 footer{
     background-color: #211f72;

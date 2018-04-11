@@ -11,8 +11,7 @@ header{
 }
 
 .corpo{
-        border: 2px solid yellow;
-        height: 1700px;
+    height: 1700px;
 }
 
 span{
@@ -257,7 +256,6 @@ section#imagem_lateral{
 section#componentes_finais{
     position: relative;
     top: 800px;
-    border: 2px solid blue;
 }
 
 section #primeiro_componente{
@@ -268,10 +266,11 @@ section #primeiro_componente{
 }
 
 h1#titulo_primeiro_componente{
-    border: 2px solid red;
     position: relative;
     float: left;
     top: 0px;
+    font-size: 15px;
+    color: #00B0FF;
 }
 
 h2.componente_final{
@@ -286,6 +285,7 @@ footer{
     height: 100px;
     position: absolute;
     bottom: 0px;
+    top: 1900px;
 }
 
 #imagem_rodape{
@@ -293,12 +293,15 @@ footer{
     height: 100px;
     position: absolute;
     left: 50px;
+    top: 20px;
 }
 
 #texto_rodape{
     float: left;
     height: 100px;
     position: absolute;
-    left: 200px;
+    left: 250px;
     font-size: 15px;
+    top: 25px;
+    width: 70%;
 }
